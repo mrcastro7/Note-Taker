@@ -92,7 +92,7 @@ module.exports = function(app) {
             maxID = Math.max(notes[i].id, maxID); 
         }
         return maxID; 
-    }
+    };
 
 
 };
